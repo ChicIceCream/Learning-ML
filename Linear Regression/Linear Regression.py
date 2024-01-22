@@ -26,9 +26,6 @@ plt.show()
 # plt.ylim(0,100)
 # plt.show()
 
-
-
-
 # data = pd.read_csv('student-mat.csv', sep=';')
 
 # data = data[['age', 'sex', 'studytime', 'absences',
