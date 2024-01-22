@@ -13,4 +13,4 @@ X_train, X_test, Y_train, Y_test = train_test_split(np.array(data.data), np.arra
 clf = KNeighborsClassifier(n_neighbors=3)
 clf.fit(X_train, Y_train)
 
-print(clf.score(X_test, Y_test))
+print(clf.score(X_test, Y_test)*100)
