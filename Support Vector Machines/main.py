@@ -23,8 +23,7 @@ plt.xlabel('Feature 1')
 plt.ylabel('Feature 2')
 plt.title('Data Points')
 
-# Import libraries
-import matplotlib.pyplot as plt
+
 # Load the breast cancer dataset
 data = load_breast_cancer()
 X = data.data
