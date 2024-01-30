@@ -27,8 +27,8 @@ loss, accuracy = model.evaluate(x_test, y_test)
 print(accuracy)
 print(loss)
 
-print(len(x_test))
-print(len(y_test))
+# print(len(x_test))
+# print(len(y_test))
 
 model.save('digits.model')
 
