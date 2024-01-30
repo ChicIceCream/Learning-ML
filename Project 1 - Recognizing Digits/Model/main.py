@@ -30,10 +30,10 @@ print(loss)
 # print(len(x_test))
 # print(len(y_test))
 
-model.save('digits.model')
+model.save('Project 1 - Recognizing Digits\digits.model')
 
 for x in range(1,5):
-    img = cv.imread(f'{x}.png')[:,:,0]
+    img = cv.imread(f'Project 1 - Recognizing Digits\{x}.png')[:,:,0]
     img = np.invert(np.array([img]))
     predication = model.predict(img)
     print(f'The prediction based on my knowledge is that this image is : {(np.argmax(predication))}')
