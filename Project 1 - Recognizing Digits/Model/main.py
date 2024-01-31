@@ -37,3 +37,5 @@ for x in range(1,5):
     img = np.invert(np.array([img]))
     predication = model.predict(img)
     print(f'The prediction based on my knowledge is that this image is : {(np.argmax(predication))}')
+    # plt.imshow(img[0], cmap="binary")
+    # plt.show()
