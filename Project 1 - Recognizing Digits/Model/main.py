@@ -22,7 +22,6 @@ model.compile(
             )
 
 model.fit(x_train, y_train, epochs=3)
-
 loss, accuracy = model.evaluate(x_test, y_test)
 print(accuracy)
 print(loss)
