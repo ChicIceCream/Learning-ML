@@ -27,6 +27,6 @@ model.fit(training_images, training_labels, epochs=5)
 test_loss, test_accuracy = model.evaluate(test_images, test_labels)
 # print(test_loss, test_accuracy)
 
-classifications = model.predict(test_images)
-print(classifications[0])  
+# classifications = model.predict(test_images)
+# print(classifications[0])  
 
