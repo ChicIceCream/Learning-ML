@@ -1,12 +1,14 @@
 import tensorflow as tf 
 from tensorflow import keras
 import matplotlib.pyplot as plt
+print(tf.__version__)
 
 fashion_mnist = keras.datasets.fashion_mnist
 (training_images, training_labels), (test_images, test_labels) = fashion_mnist.load_data()
 
 
-plt.imshow(training_images[0])
+plt.imshow(training_images[0], cmap=None)
+plt.show()
 print(training_labels[0])
 print(training_images[0])
 
