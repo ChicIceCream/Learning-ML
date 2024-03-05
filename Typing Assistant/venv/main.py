@@ -63,6 +63,7 @@ def fix_selection():
     # *4. copy back to the clipboard
     pyperclip.copy(fixed_text)
     print("Text recieved")
+    time.sleep(0.1)
     
     # *5. inserting the text
     with controller.pressed(Key.ctrl):
