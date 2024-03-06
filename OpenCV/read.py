@@ -1,11 +1,11 @@
 import cv2 as cv
 
-capture = cv.VideoCapture(0) #! put 0 for laptop camera
+capture = cv.VideoCapture('OpenCV\Videos\dog.mp4') #! put 0 for laptop camera
 
 while True:
     isTrue, frame = capture.read()
     cv.imshow('Video of dog', frame)
-
+    
     if cv.waitKey(20) & 0xFF==ord('d'):
         break
 capture.release()
