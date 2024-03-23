@@ -1,13 +1,13 @@
 import numpy as np
 import cv2 as cv
 
-def rescaleFrame(frame, scale=1.5):
-    width = int(frame[1] * scale)
-    height = int(frame[0] * scale)
+# def rescaleFrame(frame, scale=1.5):
+#     width = int(frame[1] * scale)
+#     height = int(frame[0] * scale)
     
-    dimensions = (width, height)
+#     dimensions = (width, height)
     
-    return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
+#     return cv.resize(frame, dimensions, interpolation=cv.INTER_AREA)
 
 haar_cascade = cv.CascadeClassifier(cv.data.haarcascades + 'haarcascade_frontalface_default.xml')
 
@@ -22,7 +22,7 @@ face_recognizer.read('OpenCV/face_trained_model.yml')
 img = cv.imread(
     r'OpenCV\Faces\val\ben_afflek\httpafilesbiographycomimageuploadcfillcssrgbdprgfacehqwMTENDgMDUODczNDcNTcjpg.jpg'
 )
-img = rescaleFrame(img, 1.5)
+# img = rescaleFrame(img, 1.5)
 gray = cv.cvtColor(img, cv.COLOR_BGR2GRAY)
 cv.imshow('person', gray)
 
