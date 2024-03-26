@@ -11,10 +11,10 @@ x1, y1, width1, height1 = np.random.randint(0, image.shape[1] - 100), np.random.
 x2, y2, width2, height2 = np.random.randint(0, image.shape[1] - 100), np.random.randint(0, image.shape[0] - 100), 100, 100
 
 # Draw the first square
-cv2.rectangle(image, (x1, y1), (x1 + width1, y1 + height1), (0, 0, 255), 2)
+cv2.rectangle(image, (x1, y1), (x1 + width1, y1 + height1), (0, 255, 255), 2)
 
 # Draw the second square
-cv2.rectangle(image, (x2, y2), (x2 + width2, y2 + height2), (0, 0, 255), 2)
+cv2.rectangle(image, (x2, y2), (x2 + width2, y2 + height2), (0, 255, 255), 2)
 
 # Display the image
 cv2.imshow("Image", image)
