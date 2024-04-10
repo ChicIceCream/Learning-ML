@@ -6,4 +6,4 @@ Started with learning Linear Regression
 
 ** Supervised Learning ** 
 
-This involves
+** Addrd Duet AI event **
