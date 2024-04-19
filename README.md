@@ -6,4 +6,6 @@ Started with learning Linear Regression
 
 ** Supervised Learning ** 
 
-** Addrd Duet AI event **
+** Added Duet AI event **
+
+** Added my latest project : Neural Network from Scratch **
