@@ -1,0 +1,3 @@
+0 Healthy
+1 Unhealthy
+2 Dead
