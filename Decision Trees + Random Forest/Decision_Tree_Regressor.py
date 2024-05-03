@@ -6,4 +6,5 @@ from sklearn.tree import DecisionTreeClassifier
 import matplotlib as plt
 
 iris = load_iris()
-print(iris.data) 
+# print(iris) 
+# print(iris.data) 
