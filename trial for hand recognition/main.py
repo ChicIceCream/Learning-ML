@@ -6,8 +6,7 @@ from pynput.keyboard import Controller
 mp_hands = mp.solutions.hands.Hands()
 keyboard = Controller()
 
-url = 'http://<YOUR-IP>/video'
-cp = cv2.VideoCapture(url)
+cp = cv2.VideoCapture(0)
 x1, x2, y1, y2 =0, 0, 0, 0
 
 while(True):
