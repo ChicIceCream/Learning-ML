@@ -9,7 +9,7 @@ np.set_printoptions(suppress=True)
 model = load_model("Teachable Machine Trial\keras_model.h5", compile=False)
 
 # Load the labels
-class_names = open("labels.txt", "r").readlines()
+class_names = open("Teachable Machine Trial\labels.txt", "r").readlines()
 
 # CAMERA can be 0 or 1 based on default camera of your computer
 camera = cv2.VideoCapture(0)
