@@ -9,3 +9,4 @@ Started with learning Linear Regression
 ** Added Duet AI event **
 
 ** Added my latest project : Neural Network from Scratch **
+Imagine using 
