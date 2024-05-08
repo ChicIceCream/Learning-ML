@@ -9,4 +9,5 @@ Started with learning Linear Regression
 ** Added Duet AI event **
 
 ** Added my latest project : Neural Network from Scratch **
-Imagine using 
+Imagine using nothing but NumPy and Basic maths to work out a whole Deep Learning Nueral
+network!
