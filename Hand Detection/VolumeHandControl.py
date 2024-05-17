@@ -1,3 +1,4 @@
+import math
 import time
 import mediapipe as mp
 import cv2 
@@ -22,7 +23,7 @@ while True:
     img = detector.findHands(img)
     lmList = detector.findPosition(img, draw=False)
     if len(lmList) != 0:
-        print(lmList[4], lmList[8])
+        # print(lmList[4], lmList[8])
         
         x1, y1 = lmList[4][1], lmList[4][2]
         x2, y2 = lmList[8][1], lmList[8][2]
@@ -35,13 +36,18 @@ while True:
         
         cv2.line(img, (x1, y1), (x2, y2), (255, 0, 255), 3)
         
+        length = math.hypot(x2 - x1, y2 - y1)
+        
+        print(length)
     
     cTime = time.time()
     fps = 1/(cTime - pTime)
     pTime = cTime
     
-    cv2.putText(img, f'FPS : {(int(fps))}', (10, 70), cv2.FONT_HERSHEY_COMPLEX,
+    flipped_img = cv2.flip(img, 1)
+    
+    cv2.putText(flipped_img, f'FPS : {(int(fps))}', (10, 70), cv2.FONT_HERSHEY_COMPLEX,
                 2, (255, 0, 0), 2)
     
-    cv2.imshow("Image", img)
+    cv2.imshow("Image", flipped_img)
     cv2.waitKey(1)
