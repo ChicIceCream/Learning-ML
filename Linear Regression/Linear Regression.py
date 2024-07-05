@@ -45,3 +45,9 @@ plt.show()
 
 # accuracy = model1.score(X_test, Y_test)
 # print(accuracy * 100)
+
+plt.scatter(time_train, time_test)
+# plt.axis([0,6 , 0,6])
+plt.xlabel('Actual')
+plt.ylabel('Predicted')
+plt.show()

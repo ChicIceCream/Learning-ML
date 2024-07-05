@@ -79,8 +79,5 @@ while True:
                 2, (255, 0, 0), 2)
     
     cv2.imshow("Image", flipped_img)
-<<<<<<< HEAD
-    cv2.waitKey(1)
-=======
-    cv2.waitKey(1)
->>>>>>> 825c2837f9dcb552b70481cd540d235511f463ae
+    if cv2.waitKey(1) & 0xFF == ord('q'):
+        break
