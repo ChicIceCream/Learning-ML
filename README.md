@@ -5,7 +5,7 @@ Started with learning Linear Regression
 ## Differnces between types of machine learning
 Supervised Learning
 
-** Added Duet AI event **
+Added Duet AI event
 
 ** Added my latest project : Neural Network from Scratch **
 Imagine using nothing but NumPy and Basic maths to work out a whole Deep Learning Nueral
