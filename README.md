@@ -7,8 +7,8 @@ Supervised Learning
 
 Added Duet AI event
 
-** Added my latest project : Neural Network from Scratch **
+Added my latest project : Neural Network from Scratch **
 Imagine using nothing but NumPy and Basic maths to work out a whole Deep Learning Nueral
-network! **
+network! 
 
 Most about ML basics and learning things and finding new ways to improve!
