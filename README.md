@@ -3,7 +3,7 @@ Started with learning Linear Regression
 # Machine Learning with Chic
 
 ## Differnces between types of machine learning
-Supervised Learning
+- Supervised Learning
 
 Added Duet AI event
 Added my latest project : Neural Network from Scratch **
