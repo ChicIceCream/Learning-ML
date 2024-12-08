@@ -17,7 +17,7 @@ clf1 = DecisionTreeClassifier()
 
 def desicionTreeClassifier(X_train, X_test, Y_train, Y_test):
     dt_data = []
-    for i in range(20):
+    for i in range(20):``
         clf1 = DecisionTreeClassifier()
         clf1.fit(X_train, Y_train)
         
